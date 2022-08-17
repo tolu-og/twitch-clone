@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const SideMenu = () => {
   return (
-    <div className="fixed w-14 sm:w-16 xl:w-[15rem] h-screen p-2 bg-[#0e0e10] overflow-auto">
+    <div className="fixed w-14 sm:w-16 xl:w-[15rem] h-screen p-2 bg-[#0e0e10] overflow-auto scrollbar-hide">
       <div>
         <p className="hidden xl:flex uppercase font-bold text-sm pb-4">
           Recommended Channels
