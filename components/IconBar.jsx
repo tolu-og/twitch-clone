@@ -12,25 +12,25 @@ const IconBar = () => {
       {/* Container */}
       <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-4 border-t border-gray-700 py-8">
         {/* Grid Item */}
-        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded "> 
-            <p className="text-2xl font-bold">Games</p>
-            <Image src={remote} />
+        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded ">
+          <p className="text-2xl font-bold">Games</p>
+          <Image src={remote} alt="games" />
         </div>
-        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded "> 
-            <p className="text-2xl font-bold">IRL</p>
-            <Image src={mic} />
+        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded ">
+          <p className="text-2xl font-bold">IRL</p>
+          <Image src={mic} alt="mic" />
         </div>
-        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded "> 
-            <p className="text-2xl font-bold">Music</p>
-            <Image src={HeadPhones} />
+        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded ">
+          <p className="text-2xl font-bold">Music</p>
+          <Image src={HeadPhones} alt="headphones" />
         </div>
-        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded "> 
-            <p className="text-2xl font-bold">e-Sports</p>
-            <Image src={Trophy} />
+        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded ">
+          <p className="text-2xl font-bold">e-Sports</p>
+          <Image src={Trophy} alt="trophy" />
         </div>
-        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded "> 
-            <p className="text-2xl font-bold">Creative</p>
-            <Image src={Paint} />
+        <div className="w-full h-[50px] bg-[#9147ff] flex justify-between items-center px-4 rounded ">
+          <p className="text-2xl font-bold">Creative</p>
+          <Image src={Paint} alt="paint" />
         </div>
       </div>
     </div>

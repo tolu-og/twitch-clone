@@ -28,7 +28,7 @@ const NavBar = () => {
           <a className="flex">
             <Image
               src={logo}
-              alt="/"
+              alt="logo"
               width="36"
               height="36"
               className="cursor-pointer z-10"
@@ -72,7 +72,7 @@ const NavBar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="#"
                         className={classNames(
                           active
@@ -82,12 +82,12 @@ const NavBar = () => {
                         )}
                       >
                         Support
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         href="/account"
                         className={classNames(
                           active
@@ -97,12 +97,12 @@ const NavBar = () => {
                         )}
                       >
                         Account
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <a
+                      <Link
                         onClick={() => signOut()}
                         className={classNames(
                           active
@@ -112,7 +112,7 @@ const NavBar = () => {
                         )}
                       >
                         Logout
-                      </a>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>

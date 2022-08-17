@@ -8,7 +8,7 @@ const LiveChannelItem = ({ img, profile_Img, user, game, title }) => {
       <div className="flex pt-2">
         <div className="pr-2">
           <Image
-            alt="/"
+            alt="images"
             src={profile_Img}
             width="60"
             height="60"
